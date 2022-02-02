@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        nav{
+            background-color: rgb(112, 112, 112);
+            width:auto;
+            height: 40px;
+            display: flex;
+            justify-content: flex-end;
+        
+        }
+        a{
+            
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: rgb(33, 168, 6);
+            color:rgb(221, 20, 20)
+        }
+        div{
+            border: 10px blue solid;
+            width: auto;
+            height: 150px;
+            background-color: darkgreen;
+            align-items: center;
+            margin: 20px 100px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        ::selection{
+                color: red;
+                background-color: rgb(68, 0, 255),;
+            }
+        @media screen and (max-width:992px) {
+            body{
+                background-color: rgb(144, 184, 37);
+            }
+        }
+        @media screen and (max-width:768px) {
+            body{
+                background-color: rgb(255, 145, 0);
+            }
+            nav{
+                justify-content:space-around;
+            }
+            a{
+                color: black;
+            }
+        }
+        @media screen  and (max-width:600px){
+            body{
+                background-color: rgb(168, 45, 199);
+            }
+            div{
+                border-color: red;
+                background-color:rgb(168, 45, 199);
+                margin-top: 100px;
+             
+               
+            }
+            div::before{
+                content: "Did you realize ,you made a magic!";
+              
+            }
+            nav{
+                flex-direction: column;
+                height: auto;
+                text-align: center;
+                background-color: aqua;
+   
+            }
+            a{
+                border:1px  solid rgb(80,255,255);
+            }
+            h2{
+                /* color:rgb(168, 45, 199); */
+                font-size: 0px;
+            }
+        
+    
+        
+            
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Product</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div><h2>First make me smaller, then lost me </h2> </div>
+</body>
+</html>

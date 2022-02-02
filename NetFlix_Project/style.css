@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+body{
+    background-image: url("background_image.jpg");
+    /* background-repeat: no-repeat; */
+   
+    background-position:center;
+    background-size: auto;
+
+}
+
+h1{
+    text-align: center;
+    font-family:'Bowlby One SC', cursive;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+  
+
+}
+.first{
+    color: white;
+
+}
+.second{
+    color: red;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Sorts Mill Goudy', serif;
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+
+
+.div1{
+    background-color: rgba(22, 21, 21,0.4);
+    margin: 2em auto;
+    width: 100em;
+    height: 56em;
+    padding-top:1em ;
+}
+form{
+    background-color: black;
+    width: 25em;
+    height: auto;
+    margin:0 auto ;
+    padding: 2em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#name,#age,#email{
+    width: 29em;
+    height: 3.8em;
+    margin: 1em 0;
+}
+input{
+    padding-left:1em ;
+}
+#content{
+    width: 29em;
+    height:2.5em ;
+    margin: 1em 0;
+    padding-left: 1em;
+  
+}
+#feedback{
+    margin: 0.5em 0;
+    padding: 1em;
+    resize: none;
+}
+#submit{
+    border-radius: 3em;
+    background-color: red;
+    border: none;
+    width: 8.5em;
+    height: 2.5em;
+    margin: 0 9em;
+    color: white;
+    font-size: 16px;
+    padding: 0;
+}
