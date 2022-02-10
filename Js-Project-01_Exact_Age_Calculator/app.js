@@ -24,12 +24,12 @@ date.addEventListener("change", function event(){
         ageMonth+=12;
         ageYear-=1;        
     }
-    year.innerText = (ageYear+"").padStart(2,"0");
-    month.innerText= (ageMonth+"").padStart(2,"0");
-    day.innerText=(ageDay+"").padStart(2,"0");
-    hour.innerText=(ageHour+"").padStart(2,"0");
-    minute.innerText=(ageMinute+"").padStart(2,"0");
-    second.innerText=(ageSecond+"").padStart(2,"0");
+    year.firstElementChild.innerText = (ageYear+"").padStart(2,"0");
+    month.firstElementChild.innerText= (ageMonth+"").padStart(2,"0");
+    day.firstElementChild.innerText=(ageDay+"").padStart(2,"0");
+    hour.firstElementChild.innerText=(ageHour+"").padStart(2,"0");
+    minute.firstElementChild.innerText=(ageMinute+"").padStart(2,"0");
+    second.firstElementChild.innerText=(ageSecond+"").padStart(2,"0");
 
     setInterval(event,1000);
     snipper.style.display = "none";
