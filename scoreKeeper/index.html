@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="score-keeper">
+
+    
+    <div class="container" id="container">
+        <div class="header content" >
+            <header>
+                <img src="./CLARUSWAY_LOGO.png" alt="clarusway logo">
+            </header>
+        </div>
+        <div class="image content" id="image">
+            <img src="./istockphoto-514992044-1024x1024.jpg" alt="" width="300px" >
+        </div>
+
+        <div class="score content" id="score">
+            <h1>Score</h1>
+            <h1>
+                <span id="span-player1">0</span>
+                to
+                <span id="span-player2">0</span>
+            </h1>
+        </div>
+        <div class="select content" id="select">
+            <label for="number">Score to Win</label>
+            <input type="number" name="number" id="number" min="1" value="5">
+        </div>
+        <div class="footer content" id="footer">
+            <div class="player" >
+                <button id="player1">+1 for Player1</button>
+            </div>
+            <div class="player" >
+                <button id="player2">+1 for Player 2</button>
+            </div>
+            <div class="reset" >
+                <button id="reset">RESET</button>
+            </div>
+        </div>
+    </div>
+</div>
+        <script src="./app.js"></script>
+</body>
+
+</html>

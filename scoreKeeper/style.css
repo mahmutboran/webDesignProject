@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body,html{
+    height: 100%;
+}
+.score-keeper{
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{ 
+    width: 400px;
+    height: auto;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 10px 10px rgb(163, 161, 161) ;
+   
+
+}
+.content{
+    margin: 1rem 0;
+}
+h1{
+    margin-bottom: 10px;
+}
+.footer{
+    display: flex;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 130px;
+    height: 50px;
+    border: none;
+    margin: 0px 2px -1rem;
+}
+#player1{
+    background-color: #90EE90;
+}
+#player2{
+    background-color: #ADD8E6;
+}
+#reset{
+    background-color: #FFC9CE;
+}
