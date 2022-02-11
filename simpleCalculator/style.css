@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100% ;
+}
+h2{
+    text-align: center;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+    box-shadow: 1px 1px 10px 5px rgb(190, 188, 188);
+
+}
+.entered{
+    display:flex;
+    flex-direction: column;
+    margin:20px 10px ;
+    
+}
+.enter{
+    height: 50px;
+    font-size:larger;
+    padding: 10px;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    font-size: 25px;
+
+}
+#buttonMove{
+    width: 350px;
+    height: 60px;
+    border: 2px solid blue;
+    background-color: white;
+    font-size: 20px;
+ 
+}

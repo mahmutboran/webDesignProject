@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleCalculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>My First Calculator</h2>
+    <div class="container" id="container">
+        <div class="entered" id="entered">
+            <input class="enter" type="number" name="number" id="inputNumber1" placeholder="enter first number" value="">
+            <select class="enter" name="select" id="selectSign">
+                <option value="+" id="plus">+</option>
+                <option value="-" id="minus">-</option>
+                <option value="/" id="division">/</option>
+                <option value="*" id="multiply">*</option>
+            </select>
+            <input class="enter" type="number" name="number" id="inputNumber2" placeholder="enter second number" value="">
+        </div>
+        <div class="result" id="resultDiv">
+            <button id="buttonMove">Move Mouse Here!</button>
+            <p>Result</p>
+            <span id="resultSpan">0</span>
+
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
