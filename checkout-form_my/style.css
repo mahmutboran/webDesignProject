@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body,html{
+    font-family: Mon, Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+header{
+    text-align: center;
+    margin: 15px 0;
+}
+.checkout{
+
+    display: flex;
+    justify-content: center;
+    width: 1008px;
+    height: 612px;
+    color: #333;
+}
+.form{
+    width: 372px;
+    height:612px ;
+    margin: 0 100px 0 0 ;
+    position: relative;
+  
+}
+.input{
+    position:relative;
+
+}
+.input>i{
+
+    position: absolute;
+    top: 17px;
+    bottom: 1px;
+    left: 9px;
+    color: #828282;
+
+}
+.contact-head{
+font-size: 18px;
+margin: 1px 0;
+color: #333;
+
+}
+
+input{
+    width: 372px;
+    height: 16px;
+    padding: 8px 5px 8px 30px;
+    font-size: 14px;
+    border: 1px solid #828282;
+    border-radius: 5px;
+    margin: 10px 0;
+
+}
+.country{
+    padding: 8px 5px 8px 30px;
+    font-size: 14px;
+    border: 1px solid #828282;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0;
+}
+#postcode{
+    width: 212px;
+}
+select{
+    border: none;
+}
+
+
+label{
+    margin: 20px 0px;
+    font-size: 12px;
+}
+.shipping{
+    margin-top: 50px;
+}
+
+.select{
+    display: flex;
+}
+.shipping>p{
+font-size: 18px;
+margin: 15px 0;
+color: #333;
+}
+
+.product{
+    background-color: #EEEEEE;
+    height: 365px;
+    width: 320px;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.product1{
+
+    display: flex;
+    margin: 10px 0;
+}
+.product2{
+    margin: 10px 0;
+    display: flex;
+}
+img{
+    width:96px ;
+    height: 110px;
+    border-radius: 10px;
+}
+.img{
+    margin: 0 20px 0 0;
+}
+.info>h2{
+    font-size: 16px;
+    color: #4e5150;
+    font-weight: 700px;
+}
+.info>p{
+    font-size: 16px;
+    color: #f2994a;
+    font-weight: 600px;
+
+}
+.oddprice{
+    font-size: 12px;
+    color: #4e5150;
+    text-decoration: line-through solid rgb(78 81 80);
+
+}
+.piece{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 102px;
+    height: 35px;
+    margin: 25px 0 0 0 ;
+ 
+}
+.piece>button{
+
+    text-align: center;
+    width: 20px;
+    height: 25px;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+    background-color: #e0e0e0;
+     border: none;
+     border-radius: 5px;
+}
+button>i{
+    font-size: 12px;
+}
+.total{
+
+    display: flex;
+    justify-content:space-between;
+    border-top: 1px solid black;
+    margin: 5px;
+
+}
+.ship{
+    margin-top: 50px;
+}
+#submit{
+    width: 74px;
+    height: 43px;
+    background-color: #f2994a;
+    position:absolute;
+    top: 612px;
+    left: 347px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.checkbox{
+
+    margin: 10px 0;
+    display: flex;
+}
+
+#checkbox{
+    width: 13px;
+    height: 13px;
+}
